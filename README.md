@@ -24,7 +24,8 @@ Note that the contactus.php page can call itself. This will allow you to display
 Once the data has been validated, an entry should be made in the database. The user's data must be put into the correct column (ie: First Name in the firstName field, etc).
 Once the data has been saved to the database, the user should be informed that the data was saved successfully. If there was an error saving the data, they should be informed of the error
 You can also double check that the data was inserted correctly through your phpmyadmin interface.
-Task 4 - Create a page that displays a table with all the customers on the mailing list table
+
+Create a page that displays a table with all the customers on the mailing list table
 
 Create a php page called mailing_list.php that, when called, displays an HTML table containing the customers data from the mailingList table.
 Each row should contain the following customer information in the order they appear below. The table should contain a header row outlining the data below...
